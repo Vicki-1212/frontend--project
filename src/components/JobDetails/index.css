@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap');
+
+
+.job-details-bg-container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    flex-wrap: wrap;
+    background-image: url("https://res.cloudinary.com/dtnwl3ron/image/upload/v1726146035/xmqfxpxe4bjwk68uodvg.avif");
+    background-size: cover;
+    padding:30px;
+    padding-bottom:150px;
+}
+
+.job-details-app-container {
+    background-color: white;
+    width:80%;
+    min-height:50vh;
+    border-radius:20px;
+    padding:40px;
+}
+
+.image-job-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.job-details-image {
+    width:250px;
+    height:250px;
+    margin-right:30px;
+}
+
+.job-info-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.job-company-name {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:midnightblue;
+    font-size:30px;
+}
+
+.job-company-role {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    color:dimgray;
+    font-size:20px;
+}
+
+.job-vacant-exp-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.exp-container {
+    margin-right:20px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
+.job-experience {
+    margin-left:10px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:16px;
+    color:dimgray;
+}
+
+.job-opening {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:16px;
+    color:dimgray;
+}
+
+.job-details-location-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.job-details-location {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:16px;
+    margin-left:10px;
+    color:dimgray;
+}
+
+.job-information {
+    font-family:sans-serif;
+    font-size:30px;
+}
+
+.description {
+    color:grey;
+}
+
+.job-details-info {
+    line-height: 1.5;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.job-details-contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.job-details-whatsapp {
+    margin-left:10px;
+    font-size:16px;
+    font-family: "Libre Baskerville", serif;
+}
+
+.telephone-no {
+    margin-left:10px;
+    font-size:16px;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.job-detail-call-time {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size:16px;
+}
+
+.reqirement-info {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:600;
+    font-style: normal;
+}
+
+.apply-button {
+    background-color:rgb(59, 137, 193);
+    color:white;
+    height:50px;
+    width:120px;
+    border-radius:10px;
+    font-weight: "Roboto";
+    font-size:18px;
+    border:none;
+    outline:none;
+    margin-top:20px;
+}
+
+.book-mark-icon {
+    font-size:30px;
+    align-self: flex-start;
+}
+
+.job-book-mark-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

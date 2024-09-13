@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=SUSE:wght@100..800&display=swap');
+
+.jobs-container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    flex-wrap: wrap;
+    /* background-image: linear-gradient(to right,  #8e9eab, #eef2f3); */
+    background-image: url("https://res.cloudinary.com/dtnwl3ron/image/upload/v1726146035/xmqfxpxe4bjwk68uodvg.avif");
+    background-size: cover;
+    padding-bottom:140px;
+}
+
+.job-all-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+    padding:20px;
+}
+
+.failure-container {
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.failure-image {
+    width:100%;
+}
+
+.failure-view-heading {
+    color:blueviolet;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.failure-view-description {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:dimgrey;
+}
+
+.loader {
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-view-container {
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-view-image {
+    width:100%;
+}
+
+.no-view-heading {
+    color:blueviolet;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.retry-button {
+    background-color: lightskyblue;
+    color:Black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    height:40px;
+    width:100px;
+    border:none;
+    outline:none;
+    border-radius:10px;
+}
+
+.pagination-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100px;
+    margin-top:30px;
+}
+
+
+.page-button {
+    background-color: transparent;
+    color:black;
+    border:none;
+    outline:none;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.highlight {
+    color:blue;
+}
+
+

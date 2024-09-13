@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=SUSE:wght@100..800&display=swap');
+
+.card-container {
+    border-radius:15px;
+    height:580px;
+    width:400px;
+    padding:20px;
+    box-shadow: 2px 2px 2px 2px rgb(222, 214, 214);
+    text-align: center;
+    background-color:snow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.thumb-image {
+    width:100%;
+    height:300px;
+}
+
+.job-title {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color:darkslateblue;
+    font-size:18px;
+}
+
+.phone-info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.whatsapp-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.job-tel-number {
+    font-size:14px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:black;
+}
+
+.whatsapp-number {
+    font-size:14px;
+    color:black;
+    margin-left:5px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.job-location {
+    color:black;
+    margin-left:5px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.salary-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.salary-amount {
+    color:black;
+    margin-left:5px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.book-mark-container {
+    text-align: right;
+}
+
+.card-link {
+    text-decoration: none;
+}
